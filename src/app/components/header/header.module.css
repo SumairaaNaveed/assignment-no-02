@@ -1,0 +1,37 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:  25px;
+    background-color: black;
+
+}
+
+.heading {
+   font-size: 2rem; 
+   color:blue;
+   margin: 0%;
+   
+}
+.list{
+    display: flex;
+    list-style-type: none;
+    margin: 0%;
+    padding-left: auto;
+}
+
+
+
+
+.list li{
+    margin-left:20px;
+}
+.link{
+    color:blue;
+    font-weight: bold;
+    text-decoration: none;
+    transition: color 0.3s ease ;
+}
+.link:hover{
+    color:rgb(195, 8, 117);
+}
